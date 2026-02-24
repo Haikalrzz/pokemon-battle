@@ -1,12 +1,12 @@
 # Pokémon Battle IoT Game
 
-A motion-controlled Pokémon Red-style battle game using Arduino gestures. Part of the MSc Cyber Security Mobile & Ubiquitous Computing module assignment.
+A motion-controlled Pokémon Red-style battle game using Arduino gestures. 
 
 Live Demo: https://haikalrzz.github.io/pokemon-battle/
 
 ## About
 
-This is a web-based Pokémon battle game where players use an Arduino Nano 33 BLE as a "casting wand" to perform attacks. Instead of pressing buttons, you perform physical gestures (Z, O, X, V patterns) to trigger attacks in battle.
+This is a web-based Pokémon battle game where players use an Arduino Nano 33 BLE as a "casting wand" to perform attacks. Instead of pressing buttons, you perform physical gestures (O, Z, N , L patterns) to trigger attacks in battle.
 
 ## How It Works
 
@@ -75,22 +75,7 @@ This is a web-based Pokémon battle game where players use an Arduino Nano 33 BL
 - localStorage for battle history tracking
 - Responsive CSS with mobile-first design
 
-## Project Structure
 
-```
-pokemon-battle/
-├── index.html          # Main game HTML
-├── style.css           # Game styling (Pokémon Red theme)
-├── game.js             # Game logic and battle engine
-├── arduino/            # Arduino sketch folder
-│   └── gesture_wand.ino
-├── Pictures/           # Pokémon sprites and gesture images
-│   ├── pikachu-front.png
-│   ├── charizard-back.png
-│   ├── A1.png (Z gesture)
-│   └── ...
-└── README.md           # This file
-```
 
 ## Gesture Guide
 
@@ -118,20 +103,6 @@ pokemon-battle/
 - Use a modern browser (Chrome, Edge, or Safari)
 - Enable JavaScript in browser settings
 - Clear browser cache and reload
-
-## Academic Context
-
-**Course:** MSc Cyber Security - Mobile & Ubiquitous Computing  
-**Institution:** [Your University]  
-**Year:** 2024/2025  
-**Assignment:** IoT Game Development with Physical Computing
-
-### Learning Outcomes Demonstrated:
-- IoT sensor integration (IMU)
-- Wireless communication (BLE)
-- Gesture recognition algorithms
-- Web-based embedded systems
-- Mobile-first responsive design
 
 ## Technologies Used
 
